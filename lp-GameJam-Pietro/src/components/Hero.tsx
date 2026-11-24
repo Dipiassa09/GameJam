@@ -1,4 +1,5 @@
 import { evento } from '../data/evento'
+import BotaoLembrete from './BotaoLembrete'
 
 function Hero() {
   return (
@@ -17,9 +18,12 @@ function Hero() {
           <p className="bg-card px-5 py-3 rounded-xl border border-slate-800">📅 {evento.data}</p>
           <p className="bg-card px-5 py-3 rounded-xl border border-slate-800">📍 {evento.local}</p>
         </div>
-        <a href="#inscricao" className="mt-12 inline-block bg-primaria hover:bg-green-600 text-fundo font-black px-10 py-4 rounded-xl shadow-lg shadow-primaria/20 transition-all transform hover:scale-105 min-h-[44px]">
-          QUERO CRIAR UM JOGO
-        </a>
+        <div>
+          <a href="#inscricao" className="mt-12 inline-block bg-primaria hover:bg-green-600 text-fundo font-black px-10 py-4 rounded-xl shadow-lg shadow-primaria/20 transition-all transform hover:scale-105 min-h-[44px]">
+            QUERO CRIAR UM JOGO
+          </a>
+        </div>
+        <BotaoLembrete />
       </div>
     </section>
   )

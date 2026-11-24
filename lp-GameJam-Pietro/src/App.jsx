@@ -5,6 +5,7 @@ import Programacao from './components/Programacao'
 import Atracoes from './components/Atracoes'
 import Inscricao from './components/Inscricao'
 import Rodape from './components/Rodape'
+import Grafico from './components/Grafico'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Sobre />
         <Programacao />
         <Atracoes />
+        <Grafico />
         <Inscricao />
       </main>
       <Rodape />
